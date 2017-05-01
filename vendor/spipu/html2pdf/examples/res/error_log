@@ -1,0 +1,1 @@
+[01-Feb-2017 20:27:15 UTC] PHP Fatal error:  Call to a member function getVersion() on null in /home/agoramac/public_html/secure/vendor/spipu/html2pdf/examples/res/about.php on line 20

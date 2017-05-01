@@ -1,0 +1,1 @@
+var sslAvailable = true;
