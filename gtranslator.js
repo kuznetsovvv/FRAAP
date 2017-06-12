@@ -29,7 +29,7 @@ function translateSaveHtml(language, html){
     }else{
         translatedcontent = getLangs(language, html);
     }
-    //console.log(translatedcontent);
+    console.log(translatedcontent);
     return translatedcontent;
 }
 function getLangs(inLang, inHtml){
@@ -153,7 +153,7 @@ function getLangs(inLang, inHtml){
                     if (j != 0){
                         transH[j] = "["+ transH[j] ;
                     }
-                    //console.log(transH[j]);
+                    console.log(transH[j]);
                     trans = trans + JSON.parse(transH[j])[0];
                 } 
                 translationHolder = translationHolder + trans; 
