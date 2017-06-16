@@ -313,9 +313,9 @@ function populate2(datum){
          if(value[8] != "English"){
              //console.log(index+" needs translation from "+value[8]);
              //getLangs(value[8],material to translate);
-             value[1] = translateSaveHtml(value[8],value[1]);
-             value[4] = translateSaveHtml(value[8],value[4]);
-             value[7] = translateSaveHtml(value[8],value[7]);
+             value[1] = translateSaveHtml(value[8],value[1],value[9]+" - title","#bb0000");
+             value[4] = translateSaveHtml(value[8],value[4],value[9]+" - full content","#00aa00");
+             value[7] = translateSaveHtml(value[8],value[7],value[9]+" - short content","#0000cc");
          }
          
          var shartcontent = value[7];
