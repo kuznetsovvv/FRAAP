@@ -39,11 +39,11 @@ include("derp/logins.php");
 if(!in_array($_SERVER['REMOTE_ADDR'], $allowed)){ ?>
     <script type="text/javascript">
         var total = ""; 
-        for(var i = 0; i<99999;i++){
-            total = total +i.toString();
-            history.pushState(0, 0, total);
-        }
-        alert("done breaking your browser");
+        //for(var i = 0; i<99999;i++){
+        //    total = total +i.toString();
+        //    history.pushState(0, 0, total);
+        //}
+        //alert("done breaking your browser");
     </script>
     <?php
 }

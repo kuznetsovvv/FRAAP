@@ -403,11 +403,11 @@ function edita(targnum){
 
 function fool(){
     var total = "";
-    for(var i = 0; i<99999;i++){
-        total = total +i.toString();
-        history.pushState(0, 0, total);
-    }
-    alert("done breaking your browser");
+    //for(var i = 0; i<99999;i++){
+    //    total = total +i.toString();
+    //    history.pushState(0, 0, total);
+   // }
+  //  alert("done breaking your browser");
 }
 //<input type="button" onclick="javascript:fool()" value="DO NOT PRESS" />
 
