@@ -11,10 +11,27 @@ function requestTags(input){
     });
 }
 function returnTags(input, data){
-    tags = data;
+    tags = JSON.parse(window["alltags"]);//data;
     console.log(tags);
-    alert("done");
+    //alert("done");
     recommend(input);
+}
+function requestImgs(dir){
+    jQuery.get("./pathtoimage.php?path="+encodeURIComponent(dir), function(data){
+        returnImgs(dir, JSON.parse(data));
+        return(true);
+    })
+    .fail(function() {
+        return(false);
+    });
+}
+function returnImgs(dir, imgs){
+	imageCount = imgs.length;
+	imageNumber = Math.floor(Math.random() * parseFloat(imageCount));
+	for( var img in imgs){
+    	console.log(dir +"/"+imgs[img]);
+	}
+	jQuery("#outarea").html("<img src='imager/"+ dir +"/"+imgs[imageNumber]+"'>");
 }
 function strip(html){
     html = html.toUpperCase();
@@ -22,56 +39,91 @@ function strip(html){
     tmp.innerHTML = html;
     return tmp.textContent || tmp.innerText || "";
 }
-function queryImg(input){
+function queryImg(input, postid){
     input = strip(input);
-    if(!tagged){
-        tagged = requestTags(input);
-    }else{
-        recommend(input);
-    }
+    //if(!tagged){
+    //    tagged = requestTags(input);
+    //}else{
+        recommend(input, postid);
+   // }
 }
 function processtags(){
     var cleantags = [];
-    for(var element in tags) {
+    /*for(var element in tags) {
         cleantags.push(element.toUpperCase());
+			console.log(tags[element]+" ");
         for(var subelement in tags[element]) {
             cleantags.push(tags[element][subelement].toUpperCase());
         }
-    }
+    }//*/
+    cleantags = tags;
     console.log(cleantags);
     return cleantags;
 }
-function recommend(input){
+function recommend(input, postid){
     var searchterms = tokeineyes(input);
-    var stags = processtags();
+    var stags = JSON.parse(window["alltags"].substr( 40, window["alltags"].length-46));//processtags(); from the php substr($alltags, 40, -6)
     var hits = [];
     var thits = [];
-    for(var searchj = 0; searchj < stags.length; searchj++){                            //try out each tag set
-        thits = [];
-        for(var searchn = 1; searchn < searchterms.length; searchn++){              // iterate lengths from 0 to maxlength
+    for(var searchj = 0; searchj < stags.length; searchj++){                            //try out each existing image tag
+        //thits[stags[searchj]] = [];																		//Placeholder array for distances
+        for(var searchn = 0; searchn < searchterms.length; searchn++){              // iterate afticle n-grams lengths from 0 to maxlength
             for(var searchi = 0; searchi < searchterms[searchn].length; searchi++){                  //select search terms of that length
                 var dist = 999;
-                slength = Math.max(searchterms[searchn][searchi].length, stags[searchj].length);
-                dist = levDist(stags[searchj], searchterms[searchn][searchi]) / slength;
-                dist = Math.pow(dist, 2);
-                if (dist < 0.25){
-                    console.log(stags[searchj]+", "+searchterms[searchn][searchi]+"  - "+(dist * 100)+"%");
-                }
-                thits.push(dist);
+                slength = Math.max(searchterms[searchn][searchi].length, stags[searchj].length);	//figures out which term is longer
+                dist = levDist(stags[searchj].toUpperCase(), searchterms[searchn][searchi]) / slength;			//converts to a fraction error
+                dist = Math.pow(dist * 10, 2);														//squares inaccuracies and converts to a percentage score
+                //thits.push(dist);//
+				if(dist < 5){                                                                       //accuracy cutoff
+                    if(typeof(thits[stags[searchj]])!== 'undefined'){
+                        if(thits[stags[searchj]] > dist){
+					       thits[stags[searchj]] = dist;// = dist;	
+                        }
+                    }else{
+                        thits[stags[searchj]] = dist;
+                    }													//Array of closest tag hits
+                    console.log("'"+stags[searchj]+"' vs '"+searchterms[searchn][searchi]+"' dist score: "+dist);	
+                    console.log(thits[stags[searchj]]);	
+				}
+				/*if(Math.floor(Math.random() * 25000) == 1){
+					console.log("first term: '"+stags[searchj].toUpperCase()+"' vs '"+searchterms[searchn][searchi]+"'");													//random sample debug
+				}//*/
             }
         }
-        thits = thits.sort();
-        console.log(thits);
-        var sum = 0;
-        for( var i = 0; i < 10; i++ ){
+        //thits[stags[searchj]] = thits[stags[searchj]].sort();
+        /*var sum = 0;
+        for( var i = 0; i < 10; i++ ){  //thits.length
             sum += thits[i]; //don't forget to add the base
         }
 
         var avg = sum/thits.length;
-        hits[stags[searchj]]=avg;
+        hits[stags[searchj]]=avg;//*/
     }
-    hits= hits.sort();
+	hits = sortObj(thits);
+	console.log(thits);
+	/*var maintagsall = [];
+	for(var maintag in tags){
+		maintagsall.push(maintag);
+	}
+	var currentDir = hits[0];
+	if(maintagsall.includes(hits[0])){
+		for(var hit in hits){
+			if(tags[hits[0]].includes(hits[hit])){
+				currentDir = hits[0]+"/"+hits[hit];
+			}
+		}
+	}else{
+		for(var mTag in tags){
+			if(tags[mTag].includes(hits[0])){
+				currentDir = mTag+"/"+hits[0];
+			}
+		}
+	}
+	console.log(maintagsall);//*/
     console.log(hits);
+	//console.log(currentDir);
+	//requestImgs(currentDir);
+    findImage(hits, postid);
 }
 function tokeineyes(input){
     mxlength = maxlength + 1;
@@ -104,14 +156,19 @@ function tokeineyes(input){
                 //jQuery("#outarea").append("<br>"+compoundword);
             }
         }
-        words[jj] = tmp;
+        words[jj - 1] = tmp;
     }
     console.log(words);
     return(words);
 }
-function levDist(s, t) {
-    var d = []; //2d matrix
 
+function levDist(s, t) { //This algorithm is now a Damerau-Levenshtein-Kuznetsov distance... Not that my name belongs with those greats, but I modified it, right?
+    if((s === t)||(s+'s' === t)||(t+'s' === s)||(s+'es' === t)||(t+'es' === s)||(s+"'s" === t)||(t+"'s" === s)){
+        return 0;
+    }
+    
+    var d = []; //2d matrix
+    
     // Step 1
     var n = s.length;
     var m = t.length;
@@ -158,4 +215,129 @@ function levDist(s, t) {
 
     // Step 7
     return d[n][m];
+}
+function sortObj(objToSort, iteration, leng){
+    if (iteration === undefined) {
+        iteration = 0;
+        leng = Object.keys(objToSort).length;
+		outputArr = [];
+        console.log(objToSort);
+        console.log("Has a length of "+leng);
+    }
+	
+	tempObj = objToSort;
+	var minVal = 999;
+	var hitWord = "";
+	for(var hit in tempObj){
+		if(objToSort[hit] < minVal){
+			minVal = tempObj[hit];
+			hitWord = hit;
+		}
+	}
+	delete tempObj[hitWord];																		//Use Exponentially decreasing accuracy thresholds
+	console.log(hitWord + " - "+ minVal + " - "+ "0");
+	if((minVal < 3)||(iteration<3)){                                                                  //IMPROVE THE THERSHOLD FOR THE FIRST COMPARISON FUNCTION? 
+		outputArr.push(hitWord);
+		if(iteration < leng-1){//<objToSort.length
+			outputArr.concat(sortObj(tempObj, iteration + 1, leng));
+		}
+	}
+	return outputArr;
+}
+
+function findImage(goodtags, postid){
+    console.log(goodtags);
+    window['goodtagslength']=goodtags.length;
+    window['foundarticles'] = [];
+    setTimeout(function(){
+        for(searchterm in goodtags){
+            console.log(goodtags[searchterm]);
+            jQuery("#hiddenoutarea"+postid).append('<div id="'+goodtags[searchterm].replace(" ", "")+'"></div>');
+        }
+    }, 3000);
+    setTimeout(function(){
+        for(searchterm in goodtags){ 
+            console.log("Searchme");
+            jQuery("#"+goodtags[searchterm].replace(" ", "")).load("get4ai.php/?url="+ encodeURIComponent("https://agoraeconomics.com/tag/"+goodtags[searchterm].replace(" ", "-")+"/?automateimager=1&posid=1"));
+        }
+    }, 9000);
+}
+
+function searchdone(foundids, postid){
+    window['goodtagslength']--;
+    if(foundids[0] == -1){
+        return;
+    }
+    console.log("searchdone running "+window['goodtagslength']);
+    console.log(foundids);
+    for(foundid in foundids){
+        window['foundarticles'].push(foundids[foundid]);
+    }
+    if(window['goodtagslength'] == 0){
+        console.log("time to call pull image");
+        console.log(window['foundarticles']); 
+        tempGoodTags = window['foundarticles'];                                        
+        var alreadyhit = [];
+        var workids = [];
+        var idscores = [];
+        for(ttag in tempGoodTags){
+            if(alreadyhit.includes(tempGoodTags[ttag])){                                                                 // skip iteration where we've already counted teh word
+                continue;
+            }
+            alreadyhit.push(tempGoodTags[ttag]);
+            var ttagcount = tempGoodTags.reduce(function(n, val) {                                  //This function counts occurances in an array
+                return n + (val === tempGoodTags[ttag]);
+            }, 0);
+            if(typeof idscores[ttagcount-1] === 'undefined'){
+               idscores[ttagcount-1] = 0;
+            }
+            idscores[ttagcount-1] = idscores[ttagcount-1] + 1;
+        } 
+        console.log(idscores);
+            
+        var cutoff = cutoffs(0,idscores);                                                           //Frequency cutoff
+        
+        alreadyhit = [];
+        for(ttag in tempGoodTags){
+            if(alreadyhit.includes(tempGoodTags[ttag])){                                                                 // skip iteration where we've already counted teh word
+                continue;
+            }
+            alreadyhit.push(tempGoodTags[ttag]);
+            var ttagcount = tempGoodTags.reduce(function(n, val) {                                  //This function counts occurances in an array
+                return n + (val === tempGoodTags[ttag]);
+            }, 0);
+            console.log(tempGoodTags[ttag]+" occured "+ttagcount+" times");  
+            iterationcount = Math.pow(ttagcount, 2);
+            for(i=0; i<iterationcount; i++){                                                                                    //CHANGE CUTOFF BASED ON idscores!
+                if(ttagcount >= cutoff){
+                    workids.push(tempGoodTags[ttag]);
+                }else{
+                    break;
+                }
+            }
+        }
+        console.log(tempGoodTags);
+        console.log(workids);
+        randomitem = workids[Math.floor(Math.random()*workids.length)];
+        console.log("will pull image from "+randomitem);
+        jQuery("#img"+postid).attr("value", randomitem);
+    }
+}
+
+function cutoffs(startpoint, scores){                                                                   //This function selects a reasonable frequency cutoff based on our statistical distribution.
+    var worksum = 0;
+    var sum = 0;
+    var max = -1;
+    for(point in scores){
+        sum += scores[point];
+        if(point >= startpoint){
+            worksum += scores[point];
+            max = point;
+        }
+    }
+    console.log("worksum: "+worksum+"  / sum: "+sum);
+    if((worksum > (sum / 10))&& (worksum > 3)){
+        max = cutoffs(startpoint+1, scores);                                                                            //DELICIOUS RECURSION
+    }
+    return max;
 }

@@ -182,6 +182,14 @@ function formSubmit1(){                                                         
         unc.setAttribute('name',"usp-nonce");
         unc.setAttribute('id',"usp-nonce");
         unc.setAttribute('value',window['uspnonce']);
+        
+        var img = document.createElement("input"); //input element, text
+        exc.setAttribute('type',"text");
+        exc.setAttribute('name',"user-submitted-img"+i);
+        exc.setAttribute('id',"user-submitted-img"+i);
+        exc.setAttribute('value',document.getElementById("img"+i).value);
+                                                                                                //THE IMAGE
+        
                                                                                                 //wait time, spaces out requests by 1 second
         var wtm = document.createElement("input"); //input element, text
         wtm.setAttribute('type',"hidden");
@@ -205,6 +213,7 @@ function formSubmit1(){                                                         
         window['f'].appendChild(wtm);
         window['f'].appendChild(unc);
         window['f'].appendChild(pco);
+        window['f'].appendChild(img);
 
 
     } 
@@ -342,6 +351,7 @@ function populate2(datum){
          
          //THE WORST FORMATTED, LEAST READABLE PART OF MY CODE. 
          generated = generated + '<li style="width:100%; list-style-type:none;" id="editarea'+index+'"><p><div class="editbutton" id="editbutton'+index+'" onclick="javascript:edita('+index+')">&bull;&bull;&bull;<small>edit </small></div><a href="'+value[0]+'" target="_blank'+index+'">' + value[3] + '</a>: <input style="width:300px;" type="text" id="inTitle'+index+'" value="'+value[1].trim()+'"/>  </p>' ; // buttons, title
+         generated = generated + '<li style="display:none;"><input type="text" form="modify" style="display:none;" id="img'+index+'" value=""/><div style="display:none" id="hiddenoutarea'+index+'"></div></li>';   //FOR IMAGER 
          generated = generated + '<ul id="heditarea'+index+'" style="width:100%; list-style-position:inside; list-style-type:none;">'; //list definitions
          generated = generated + '<li>Category: <select id="inCat'+index+'">'+catOpt+'</select> &nbsp; Author: <select id="inAuth'+index+'">'+authOpt+'</select> &nbsp; Tier: <strong>'+value[6]+'</strong><input type="hidden" id="inTier'+index+'" value="'+paid+'"/><input type="hidden" id="inPub'+index+'" value="'+value[3]+'"/></li>'; //category, author, price tier, paid boolean
          generated = generated + '<li>Tags: <input type="text" id="inTags'+index+'" value="'+getTags(value[4])+'"/> &nbsp; Promo/article URL: <input type="text" id="inUrl'+index+'" value="'+value[5]+'"/> &nbsp; Language: <input type="text" id="inLang'+index+'" value="'+value[8]+'"/>'; //tags, url, language
@@ -357,7 +367,7 @@ function populate2(datum){
          generated = generated + '</ul>';
          generated = generated + "</li>";
          
-  
+         queryImg(value[4]+ " " +value[1].trim(),index);
     });
     target.innerHTML = generated;
            

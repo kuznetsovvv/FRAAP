@@ -16,6 +16,7 @@
     <script src="automate.js?vs=<?php echo time(); ?>" >    </script>
     <script src="./gtranslator.js?vs=<?php echo time(); ?>"></script>
     <script src="./tagger.js?vs=<?php echo time(); ?>"></script>
+    <script src="./AutomateImager/imager.js?vs=<?php echo time(); ?>"></script>
     <script src="./nicEdit/nicEdit.js" type="text/javascript"></script>
 </head>
 <body>
@@ -81,7 +82,7 @@ $ydate = $dates[1];
     <div class="modaluniquea-body">
         <form  action="/results.php" id="modify" name="modify" method="post" style="list-style-position: inside;">
             <ul id="step2">
-               <li>loading...</li>
+               <li>LOADING... Expect this to take a few minutes</li>
 
             </ul>
         </form>

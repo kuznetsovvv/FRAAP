@@ -1,117 +1,242 @@
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  scandir(./htnoaccess/1971 marked the beginning of....jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  scandir(./htnoaccess/Aside from inflation and employment...jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  scandir(./htnoaccess/Austrian economics and Europe.jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  scandir(./htnoaccess/Century of conflict ended with....jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  scandir(./htnoaccess/Commodisaster....jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  scandir(./htnoaccess/Even unofficial reports suggest....jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  scandir(./htnoaccess/Greeks vote to keep....jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  scandir(./htnoaccess/Janet Yellen quietly insinuated.jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  scandir(./htnoaccess/Pessimism in the commodity....jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  scandir(./htnoaccess/Tim Price on Financial Martial....jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  scandir(./htnoaccess/Topped out dollar means....jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  scandir(./htnoaccess/What the 231 year....jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  scandir(./htnoaccess/Why China isnt going to flood....jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 16:25:22 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 9
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  scandir(./htnoaccess/1971 marked the beginning of....jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  scandir(./htnoaccess/Aside from inflation and employment...jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  scandir(./htnoaccess/Austrian economics and Europe.jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  scandir(./htnoaccess/Century of conflict ended with....jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  scandir(./htnoaccess/Commodisaster....jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  scandir(./htnoaccess/Even unofficial reports suggest....jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  scandir(./htnoaccess/Greeks vote to keep....jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  scandir(./htnoaccess/Janet Yellen quietly insinuated.jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  scandir(./htnoaccess/Pessimism in the commodity....jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  scandir(./htnoaccess/Tim Price on Financial Martial....jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  scandir(./htnoaccess/Topped out dollar means....jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  scandir(./htnoaccess/What the 231 year....jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  scandir(./htnoaccess/Why China isnt going to flood....jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:22:45 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  scandir(./htnoaccess/1971 marked the beginning of....jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  scandir(./htnoaccess/Aside from inflation and employment...jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  scandir(./htnoaccess/Austrian economics and Europe.jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  scandir(./htnoaccess/Century of conflict ended with....jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  scandir(./htnoaccess/Commodisaster....jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  scandir(./htnoaccess/Even unofficial reports suggest....jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  scandir(./htnoaccess/Greeks vote to keep....jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  scandir(./htnoaccess/Janet Yellen quietly insinuated.jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  scandir(./htnoaccess/Pessimism in the commodity....jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  scandir(./htnoaccess/Tim Price on Financial Martial....jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  scandir(./htnoaccess/Topped out dollar means....jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  scandir(./htnoaccess/What the 231 year....jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  scandir(./htnoaccess/Why China isnt going to flood....jpg): failed to open dir: Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
-[14-Jun-2017 17:23:14 UTC] PHP Warning:  array_diff(): Argument #1 is not an array in /home/agoramac/public_html/FreeArticleAutoPublisher/AutomateImager/indexer.php on line 10
+[11-Jul-2017 21:31:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:57 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:57 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:57 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:57 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:57 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:57 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:57 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:57 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:57 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:57 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:57 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:57 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:57 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:57 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:57 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:57 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:57 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:57 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:57 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:57 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:57 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:57 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:57 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:57 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:57 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:57 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:57 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:57 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[11-Jul-2017 21:31:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 19
+[13-Jul-2017 15:41:48 UTC] PHP Warning:  scandir(./imager/): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 4
+[13-Jul-2017 15:41:48 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 4
+[13-Jul-2017 15:41:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 5
+[13-Jul-2017 15:41:49 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 13
+[13-Jul-2017 15:43:29 UTC] PHP Warning:  scandir(./imager/): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 4
+[13-Jul-2017 15:43:29 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 4
+[13-Jul-2017 15:43:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 5
+[13-Jul-2017 15:43:30 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 13
+[13-Jul-2017 15:43:58 UTC] PHP Warning:  scandir(./imager/): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 4
+[13-Jul-2017 15:43:58 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 4
+[13-Jul-2017 15:43:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 5
+[13-Jul-2017 15:43:59 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 13
+[13-Jul-2017 15:45:02 UTC] PHP Warning:  scandir(./imager/): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 4
+[13-Jul-2017 15:45:02 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 4
+[13-Jul-2017 15:45:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 5
+[13-Jul-2017 15:45:03 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 13
+[13-Jul-2017 15:45:34 UTC] PHP Warning:  scandir(./imager/): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 4
+[13-Jul-2017 15:45:34 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 4
+[13-Jul-2017 15:45:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/indexer.php on line 5
+[13-Jul-2017 15:46:40 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 13
+[13-Jul-2017 18:21:00 UTC] PHP Warning:  scandir(./imager/undefined): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[13-Jul-2017 18:21:00 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[13-Jul-2017 18:21:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[13-Jul-2017 18:21:50 UTC] PHP Warning:  scandir(./imager/undefined): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[13-Jul-2017 18:21:50 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[13-Jul-2017 18:21:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[13-Jul-2017 18:22:00 UTC] PHP Warning:  scandir(./imager/undefined): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[13-Jul-2017 18:22:00 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[13-Jul-2017 18:22:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[05-Sep-2017 17:02:01 UTC] PHP Warning:  scandir(./imager/1949): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Sep-2017 17:02:01 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Sep-2017 17:02:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[05-Sep-2017 17:06:24 UTC] PHP Warning:  scandir(./imager/1949): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Sep-2017 17:06:24 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Sep-2017 17:06:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[05-Sep-2017 18:44:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method DOMDocument::textContent() in /home/agoramac/public_html/AutomateTwo/AutomateImager/infograb3.php:106
+Stack trace:
+#0 /home/agoramac/public_html/AutomateTwo/AutomateImager/index.php(4): require_once()
+#1 {main}
+  thrown in /home/agoramac/public_html/AutomateTwo/AutomateImager/infograb3.php on line 106
+[05-Sep-2017 18:46:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method DOMDocument::textContent() in /home/agoramac/public_html/AutomateTwo/AutomateImager/infograb3.php:106
+Stack trace:
+#0 /home/agoramac/public_html/AutomateTwo/AutomateImager/index.php(4): require_once()
+#1 {main}
+  thrown in /home/agoramac/public_html/AutomateTwo/AutomateImager/infograb3.php on line 106
+[05-Sep-2017 18:48:48 UTC] PHP Warning:  scandir(./imager/1949): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Sep-2017 18:48:48 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Sep-2017 18:48:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[05-Sep-2017 18:55:40 UTC] PHP Warning:  scandir(./imager/1949): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Sep-2017 18:55:40 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Sep-2017 18:55:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[05-Sep-2017 18:55:59 UTC] PHP Warning:  scandir(./imager/1430/): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Sep-2017 18:55:59 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Sep-2017 18:55:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[05-Sep-2017 19:28:56 UTC] PHP Warning:  scandir(./imager/5/2017): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Sep-2017 19:28:56 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Sep-2017 19:28:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[11-Sep-2017 18:40:29 UTC] PHP Warning:  scandir(./imager/1439/): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[11-Sep-2017 18:40:29 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[11-Sep-2017 18:40:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[11-Sep-2017 18:40:43 UTC] PHP Warning:  scandir(./imager/1439/): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[11-Sep-2017 18:40:43 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[11-Sep-2017 18:40:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[11-Sep-2017 18:49:53 UTC] PHP Warning:  scandir(./imager/2/1987): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[11-Sep-2017 18:49:53 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[11-Sep-2017 18:49:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[11-Sep-2017 19:09:22 UTC] PHP Warning:  scandir(./imager/390/DOW): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[11-Sep-2017 19:09:22 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[11-Sep-2017 19:09:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[11-Sep-2017 19:13:57 UTC] PHP Warning:  scandir(./imager/390/DOW): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[11-Sep-2017 19:13:57 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[11-Sep-2017 19:13:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[11-Sep-2017 19:14:33 UTC] PHP Warning:  scandir(./imager/1439/): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[11-Sep-2017 19:14:33 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[11-Sep-2017 19:14:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[11-Sep-2017 19:50:07 UTC] PHP Warning:  scandir(./imager/1439/): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[11-Sep-2017 19:50:07 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[11-Sep-2017 19:50:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[11-Sep-2017 19:53:14 UTC] PHP Warning:  scandir(./imager/623/government bond): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[11-Sep-2017 19:53:14 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[11-Sep-2017 19:53:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[11-Sep-2017 20:18:06 UTC] PHP Warning:  scandir(./imager/623/government bond): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[11-Sep-2017 20:18:06 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[11-Sep-2017 20:18:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[11-Sep-2017 21:31:31 UTC] PHP Warning:  scandir(./imager/625/government deb): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[11-Sep-2017 21:31:31 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[11-Sep-2017 21:31:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[04-Oct-2017 14:45:02 UTC] PHP Warning:  scandir(./imager/678/Housing): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[04-Oct-2017 14:45:02 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[04-Oct-2017 14:45:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[04-Oct-2017 15:12:19 UTC] PHP Warning:  scandir(./imager/678/Housing): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[04-Oct-2017 15:12:19 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[04-Oct-2017 15:12:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[04-Oct-2017 15:46:24 UTC] PHP Warning:  scandir(./imager/678/Housing): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[04-Oct-2017 15:46:24 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[04-Oct-2017 15:46:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[04-Oct-2017 17:38:29 UTC] PHP Warning:  scandir(./imager/1449/): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[04-Oct-2017 17:38:29 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[04-Oct-2017 17:38:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[04-Oct-2017 17:40:19 UTC] PHP Warning:  scandir(./imager/1449/): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[04-Oct-2017 17:40:19 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[04-Oct-2017 17:40:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[04-Oct-2017 17:51:59 UTC] PHP Warning:  scandir(./imager/undefined): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[04-Oct-2017 17:51:59 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[04-Oct-2017 17:51:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[05-Oct-2017 18:12:03 UTC] PHP Warning:  scandir(./imager/undefined): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Oct-2017 18:12:03 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Oct-2017 18:12:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[05-Oct-2017 18:16:20 UTC] PHP Warning:  scandir(./imager/1449/): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Oct-2017 18:16:20 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Oct-2017 18:16:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[05-Oct-2017 18:20:47 UTC] PHP Warning:  scandir(./imager/894/Motivation): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Oct-2017 18:20:47 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Oct-2017 18:20:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[05-Oct-2017 18:21:57 UTC] PHP Warning:  scandir(./imager/543/First): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Oct-2017 18:21:57 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Oct-2017 18:21:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[05-Oct-2017 18:42:11 UTC] PHP Warning:  scandir(./imager/543/First): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Oct-2017 18:42:11 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Oct-2017 18:42:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[05-Oct-2017 18:45:10 UTC] PHP Warning:  scandir(./imager/543/First): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Oct-2017 18:45:10 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Oct-2017 18:45:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[05-Oct-2017 18:46:39 UTC] PHP Warning:  scandir(./imager/543/First): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Oct-2017 18:46:39 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Oct-2017 18:46:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[05-Oct-2017 18:47:52 UTC] PHP Warning:  scandir(./imager/543/First): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Oct-2017 18:47:52 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Oct-2017 18:47:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[05-Oct-2017 18:49:01 UTC] PHP Warning:  scandir(./imager/543/First): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Oct-2017 18:49:01 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Oct-2017 18:49:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[05-Oct-2017 18:52:14 UTC] PHP Warning:  scandir(./imager/543/First): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Oct-2017 18:52:14 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Oct-2017 18:52:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[05-Oct-2017 18:53:35 UTC] PHP Warning:  scandir(./imager/543/First): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Oct-2017 18:53:35 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Oct-2017 18:53:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[05-Oct-2017 18:54:56 UTC] PHP Warning:  scandir(./imager/543/First): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Oct-2017 18:54:56 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[05-Oct-2017 18:54:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[11-Oct-2017 21:13:43 UTC] PHP Warning:  scandir(./imager/270/Computer): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[11-Oct-2017 21:13:43 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[11-Oct-2017 21:13:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[11-Oct-2017 21:14:08 UTC] PHP Warning:  scandir(./imager/270/Computer): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[11-Oct-2017 21:14:08 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[11-Oct-2017 21:14:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[12-Oct-2017 16:37:47 UTC] PHP Warning:  scandir(./imager/270/Computer): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[12-Oct-2017 16:37:47 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[12-Oct-2017 16:37:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[12-Oct-2017 16:39:08 UTC] PHP Warning:  scandir(./imager/270/Computer): failed to open dir: No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[12-Oct-2017 16:39:08 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 5
+[12-Oct-2017 16:39:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/agoramac/public_html/AutomateTwo/AutomateImager/pathtoimage.php on line 6
+[12-Oct-2017 21:57:14 UTC] PHP Warning:  DOMDocument::loadHTML(): Empty string supplied as input in /home/agoramac/public_html/AutomateTwo/AutomateImager/infograb3.php on line 63
+[12-Oct-2017 21:57:34 UTC] PHP Warning:  DOMDocument::loadHTML(): Empty string supplied as input in /home/agoramac/public_html/AutomateTwo/AutomateImager/infograb3.php on line 63
+[12-Oct-2017 21:58:36 UTC] PHP Warning:  DOMDocument::loadHTML(): Empty string supplied as input in /home/agoramac/public_html/AutomateTwo/AutomateImager/infograb3.php on line 63
+[12-Oct-2017 21:59:21 UTC] PHP Warning:  DOMDocument::loadHTML(): Empty string supplied as input in /home/agoramac/public_html/AutomateTwo/AutomateImager/infograb3.php on line 63
+[12-Oct-2017 21:59:32 UTC] PHP Warning:  DOMDocument::loadHTML(): Empty string supplied as input in /home/agoramac/public_html/AutomateTwo/AutomateImager/infograb3.php on line 63
