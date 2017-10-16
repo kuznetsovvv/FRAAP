@@ -367,7 +367,7 @@ function populate2(datum){
          generated = generated + '</ul>';
          generated = generated + "</li>";
          
-         queryImg(value[4]+ " " +value[1].trim(),index);
+         //queryImg(value[4]+ " " +value[1].trim(),index);                                                                  //COMMENTED TO SPEED UP, THIS IS FOR IMAGER
     });
     target.innerHTML = generated;
            

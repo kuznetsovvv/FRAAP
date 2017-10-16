@@ -1,38 +1,7 @@
 var tagged = false;
 var tags;
 var maxlength = 3;
-function requestTags(input){
-    jQuery.get("./indexer.php", function(data){
-        returnTags(input, JSON.parse(data));
-        return(true);
-    })
-    .fail(function() {
-        return(false);
-    });
-}
-function returnTags(input, data){
-    tags = JSON.parse(window["alltags"]);//data;
-    console.log(tags);
-    //alert("done");
-    recommend(input);
-}
-function requestImgs(dir){
-    jQuery.get("./pathtoimage.php?path="+encodeURIComponent(dir), function(data){
-        returnImgs(dir, JSON.parse(data));
-        return(true);
-    })
-    .fail(function() {
-        return(false);
-    });
-}
-function returnImgs(dir, imgs){
-	imageCount = imgs.length;
-	imageNumber = Math.floor(Math.random() * parseFloat(imageCount));
-	for( var img in imgs){
-    	console.log(dir +"/"+imgs[img]);
-	}
-	jQuery("#outarea").html("<img src='imager/"+ dir +"/"+imgs[imageNumber]+"'>");
-}
+
 function strip(html){
     html = html.toUpperCase();
     var tmp = document.createElement("DIV");
@@ -247,8 +216,8 @@ function sortObj(objToSort, iteration, leng){
 
 function findImage(goodtags, postid){
     console.log(goodtags);
-    window['goodtagslength']=goodtags.length;
-    window['foundarticles'] = [];
+    window['goodtagslength'+postid]=goodtags.length;
+    window['foundarticles'+postid] = [];
     setTimeout(function(){
         for(searchterm in goodtags){
             console.log(goodtags[searchterm]);
@@ -264,19 +233,19 @@ function findImage(goodtags, postid){
 }
 
 function searchdone(foundids, postid){
-    window['goodtagslength']--;
+    window['goodtagslength'+postid]--;
     if(foundids[0] == -1){
         return;
     }
-    console.log("searchdone running "+window['goodtagslength']);
+    console.log("searchdone running "+window['goodtagslength'+postid]);
     console.log(foundids);
     for(foundid in foundids){
-        window['foundarticles'].push(foundids[foundid]);
+        window['foundarticles'+postid].push(foundids[foundid]);
     }
-    if(window['goodtagslength'] == 0){
+    if(window['goodtagslength'+postid] == 0){
         console.log("time to call pull image");
-        console.log(window['foundarticles']); 
-        tempGoodTags = window['foundarticles'];                                        
+        console.log(window['foundarticles'+postid]); 
+        tempGoodTags = window['foundarticles'+postid];                                        
         var alreadyhit = [];
         var workids = [];
         var idscores = [];
