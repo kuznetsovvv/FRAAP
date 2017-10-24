@@ -1,0 +1,6 @@
+<a href="https://www.empiricus.com.br/newsletters/mercado-em-5/m5m_carta-de-despedida/" id="btn_post-m5m-carta-de-despedida" class="clearfix" title="M5M_Carta de Despedida"><div class="list-item--thumb"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://www.empiricus.com.br/wp-content/uploads/2017/07/shutterstock-546660592-2-.jpg" alt="M5M_Carta de Despedida" class="img"></div>
+<div class="list-item--meta ">
+<span class="list-item--category">Mercado em 5 Minutos</span><h2 class="list-item--title">M5M_Carta de Despedida</h2>
+<p class="list-item--description">"You say good bye and I say hello" – Lennon &amp; McCartney</p>
+<p class="list-item--info">Alexandre Mastrocinque - 3 de julho, 2017</p>
+</div></a>

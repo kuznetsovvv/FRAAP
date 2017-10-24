@@ -82,7 +82,7 @@ $ydate = $dates[1];
     <div class="modaluniquea-body">
         <form  action="/results.php" id="modify" name="modify" method="post" style="list-style-position: inside;">
             <ul id="step2">
-               <li>LOADING... Expect this to take a few minutes</li>
+               <li>LOADING... this may take a few minutes longer than usual. Bear with me. -Vlad</li>
 
             </ul>
         </form>

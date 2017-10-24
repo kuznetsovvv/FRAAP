@@ -51,8 +51,8 @@ function recommend(input, postid){
                     }else{
                         thits[stags[searchj]] = dist;
                     }													//Array of closest tag hits
-                    console.log("'"+stags[searchj]+"' vs '"+searchterms[searchn][searchi]+"' dist score: "+dist);	
-                    console.log(thits[stags[searchj]]);	
+                    //console.log("'"+stags[searchj]+"' vs '"+searchterms[searchn][searchi]+"' dist score: "+dist);	
+                    //console.log(thits[stags[searchj]]);	
 				}
 				/*if(Math.floor(Math.random() * 25000) == 1){
 					console.log("first term: '"+stags[searchj].toUpperCase()+"' vs '"+searchterms[searchn][searchi]+"'");													//random sample debug
@@ -224,10 +224,11 @@ function findImage(goodtags, postid){
             jQuery("#hiddenoutarea"+postid).append('<div id="'+goodtags[searchterm].replace(" ", "")+'"></div>');
         }
     }, 3000);
+    console.log("postid: "+ postid+" length: "+goodtags.length)
     setTimeout(function(){
         for(searchterm in goodtags){ 
             console.log("Searchme");
-            jQuery("#"+goodtags[searchterm].replace(" ", "")).load("get4ai.php/?url="+ encodeURIComponent("https://agoraeconomics.com/tag/"+goodtags[searchterm].replace(" ", "-")+"/?automateimager=1&posid=1"));
+            jQuery("#"+goodtags[searchterm].replace(" ", "")).load("get4ai.php/?url="+ encodeURIComponent("https://agoraeconomics.com/tag/"+goodtags[searchterm].replace(" ", "-")+"/?automateimager=1&posid="+postid));
         }
     }, 9000);
 }
@@ -237,7 +238,7 @@ function searchdone(foundids, postid){
     if(foundids[0] == -1){
         return;
     }
-    console.log("searchdone running "+window['goodtagslength'+postid]);
+    console.log("searchdone"+postid+" running "+window['goodtagslength'+postid]);
     console.log(foundids);
     for(foundid in foundids){
         window['foundarticles'+postid].push(foundids[foundid]);
@@ -275,7 +276,7 @@ function searchdone(foundids, postid){
             var ttagcount = tempGoodTags.reduce(function(n, val) {                                  //This function counts occurances in an array
                 return n + (val === tempGoodTags[ttag]);
             }, 0);
-            console.log(tempGoodTags[ttag]+" occured "+ttagcount+" times");  
+            //console.log(tempGoodTags[ttag]+" occured "+ttagcount+" times");               //debug statement
             iterationcount = Math.pow(ttagcount, 2);
             for(i=0; i<iterationcount; i++){                                                                                    //CHANGE CUTOFF BASED ON idscores!
                 if(ttagcount >= cutoff){
