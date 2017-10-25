@@ -184,10 +184,10 @@ function formSubmit1(){                                                         
         unc.setAttribute('value',window['uspnonce']);
         
         var img = document.createElement("input"); //input element, text
-        exc.setAttribute('type',"text");
-        exc.setAttribute('name',"user-submitted-img"+i);
-        exc.setAttribute('id',"user-submitted-img"+i);
-        exc.setAttribute('value',document.getElementById("img"+i).value);
+        img.setAttribute('type',"text");
+        img.setAttribute('name',"user-submitted-img"+i);
+        img.setAttribute('id',"user-submitted-img"+i);
+        img.setAttribute('value',document.getElementById("img"+i).value);
                                                                                                 //THE IMAGE
         
                                                                                                 //wait time, spaces out requests by 1 second
