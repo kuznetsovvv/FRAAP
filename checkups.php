@@ -61,6 +61,9 @@
         $auths[$i] = $conf[11];
         $codes[$i] = $conf[12];
         $stops[$i] = $conf[13];
+        $excludes[$i] = $conf[14];
+        $reauths[$i] = $conf[15];
+        $savepaths[$i] = $conf[16];
     }
     $fir = "1";
     $last = "0";
@@ -72,14 +75,14 @@
         //echo $nombre ." vs ". count($nms);
         //echo "first: ".$fir."<br/>last: ".$last;
         $num = $item;
-        checkups($selects[$num], $urls[$num], $curls[$num], $usrs[$num], $pws[$num], $num, $titls[$num],$tdate, $ydate, $pdate, $xmls[$num], $auths[$num], $contents[$num], $stops[$num], $tiers[$num],$fir,$last, $codes[$num], $proms[$num], 0, $langs[$num]);                    
+        checkups($selects[$num], $urls[$num], $curls[$num], $usrs[$num], $pws[$num], $num, $titls[$num],$tdate, $ydate, $pdate, $xmls[$num], $auths[$num], $contents[$num], $stops[$num], $tiers[$num],$fir,$last, $codes[$num], $proms[$num], 0, $langs[$num], $excludes[$num], $reauths[$num], $savepaths[$num]);                    
        flush(); ob_flush();
     }  
 
         
         
         
-        function checkups($selector, $url, $curl, $usr, $pw, $num, $title, $tdate, $ydate, $pdate, $xrss, $auth, $csel, $stsel, $tier, $fir, $last, $code, $promo, $recursioncount = 0, $lang){                         //Check Updates!
+        function checkups($selector, $url, $curl, $usr, $pw, $num, $title, $tdate, $ydate, $pdate, $xrss, $auth, $csel, $stsel, $tier, $fir, $last, $code, $promo, $recursioncount = 0, $lang, $exclude, $reauth, $savepath){                         //Check Updates!
                
             
                 global $ch;
@@ -98,7 +101,7 @@
                             $content = $rssArray[0];
                     }else{
 
-                        if($fir and (!(empty($curl)))){
+                        if(($fir || $reauth) and (!(empty($curl)))){
                             $path = "derp/ctemp";
                             $cookie_file_path = $path."/cookie.txt";
                             
@@ -295,7 +298,7 @@
                     $div = $x->query($xp);//*/
                     //$artcontent = PHP_EOL.PHP_EOL.($domDoc->saveHTML($div->item(0)));
                     
-                    $artcontent = substr($artcontent, $substringstart, $substringlength);
+                    $artcontent = substr($artcontent, $substringstart, $substringlength);                           //EXCLUDE CONTENT WILL GO SOMEWHERE AROUND HERE
                 }
                 $artcontent=trim($artcontent);//trim(strip_tags($artcontent));
                 $acshort = $artcontent;
@@ -319,7 +322,7 @@
                     $ch = curl_init();
                     $recursioncount = $recursioncount + 1;
                     //echo("bump -".$num);
-                    checkups($selector, $url, $curl, $usr, $pw, $num, $title, $tdate, $ydate, $pdate, $xrss, $auth, $csel, $stsel, $tier, "true", $last, $code, $promo, $recursioncount, $lang);
+                    checkups($selector, $url, $curl, $usr, $pw, $num, $title, $tdate, $ydate, $pdate, $xrss, $auth, $csel, $stsel, $tier, "true", $last, $code, $promo, $recursioncount, $lang, $exclude, $reauth, $savepath);
                     return;
                 }else{
                 $checktext =  "- ERROR - could not retrieve content -";

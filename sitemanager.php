@@ -51,6 +51,9 @@
         var xl=document.getElementById("auth"+varline).value;
         var xm=document.getElementById("code"+varline).value;
         var xs=document.getElementById("stop"+varline).value;
+        var xn=document.getElementById("exclude"+varline).value;
+        var xo=document.getElementById("reauth"+varline).value;
+        var xp=document.getElementById("savepath"+varline).value;
         
 /*
         for(var i = 0; i < x.length; i++) {
@@ -74,7 +77,7 @@
     //alert(targ.value.substring(startPos, endPos));
     //alert(xa+";"+xb+";"+xc+";"+xd+";"+xe+";"+xf+";"+xg);
     var str = targ.value;  
-    var n=str.replace(str.substring(startPos, endPos),(xa+";"+xb+";"+xc+";"+xd+";"+xe+";"+xf+";"+xg+";"+xh+";"+xi+";"+xj+";"+xk+";"+xl+";"+xm+";"+xs))
+    var n=str.replace(str.substring(startPos, endPos),(xa+";"+xb+";"+xc+";"+xd+";"+xe+";"+xf+";"+xg+";"+xh+";"+xi+";"+xj+";"+xk+";"+xl+";"+xm+";"+xs+";"+xn+";"+xo+";"+xp))
     targ.innerHTML = n;
     document.getElementById("gsites").submit();
     return true;
@@ -100,6 +103,9 @@
                 var xl=document.getElementById("auth"+varline).value;
                 var xm=document.getElementById("code"+varline).value;
                 var xs=document.getElementById("stop"+varline).value;
+                var xn=document.getElementById("exclude"+varline).value;
+                var xo=document.getElementById("reauth"+varline).value;
+                var xp=document.getElementById("savepath"+varline).value;
                 
         /*
                 for(var i = 0; i < x.length; i++) {
@@ -123,7 +129,7 @@
             //alert(targ.value.substring(startPos, endPos));
             //alert(xa+";"+xb+";"+xc+";"+xd+";"+xe+";"+xf+";"+xg);
             var str = targ.value;
-            var n=str.replace(str.substring(startPos, endPos),(xa+";"+xb+";"+xc+";"+xd+";"+xe+";"+xf+";"+xg+";"+xh+";"+xi+";"+xj+";"+xk+";"+xl+";"+xm+";"+xs));
+            var n=str.replace(str.substring(startPos, endPos),(xa+";"+xb+";"+xc+";"+xd+";"+xe+";"+xf+";"+xg+";"+xh+";"+xi+";"+xj+";"+xk+";"+xl+";"+xm+";"+xs+";"+xn+";"+xo+";"+xp));
             if(!(xc)){
                 n=str.replace(str.substring(startPos - 1, endPos),(""));
             }
@@ -176,6 +182,9 @@
         $auths[$i] = $conf[11];
         $codes[$i] = $conf[12];
         $stops[$i] = $conf[13];
+        $excludes[$i] = $conf[14];
+        $reauths[$i] = $conf[15];
+        $savepaths[$i] = $conf[16];
     }
 
 
@@ -195,7 +204,20 @@ echo '<h2>Sites:</h2><form action="" id="holder" method="post"><ol>';
         echo '</li><li>Target xPath selector:  <input type="text" class="wide" name="sels'.$num.'" id="sels'.$num.'" value="'.htmlspecialchars($selects[$num]).'"/>';//.$selects[$num];
         echo '</li><li>Content xPath selector:  <input type="text" class="wide" name="contents'.$num.'" id="contents'.$num.'" value="'.htmlspecialchars($contents[$num]).'"/>';
         echo '</li><li>Content end xPath selector:  <input type="text" class="wide" name="stop'.$num.'" id="stop'.$num.'" value="'.htmlspecialchars($stops[$num]).'"/>';//.$selects[$num];
+        echo '</li><li>Exclude Content xPath selector (|| seperated):  <input type="text" class="wide" name="exclude'.$num.'" id="exclude'.$num.'" value="'.htmlspecialchars($excludes[$num]).'"/>';//.$selects[$num];
         echo '</li><li>Feed URL (Leave blank for no feed): <input type="text" class="wide" name="feed'.$num.'" id="feed'.$num.'" value="'.htmlspecialchars($feeds[$num]).'"/></li>';
+        echo '<li>Language: <input type="text" class="wide" name="lang'.$num.'" id="lang'.$num.'" value="'.$langs[$num].'"/></li>';
+        echo '</li><li>Feed URL (Leave blank for no feed): <input type="text" class="wide" name="savepath'.$num.'" id="savepath'.$num.'" value="'.htmlspecialchars($savepaths[$num]).'"/></li>';
+        
+        echo '<li>Reconnect between publications: <select class="wide" name="reauth'.$num.'" id="reauth'.$num.'" />';
+        echo '<option value="Yes"';
+        if ($tiers[$num] == "Yes"){echo ' selected="selected"';}
+        echo '>Yes</option>';
+        echo '<option value="No"';
+        if ($tiers[$num] == "No"){echo ' selected="selected"';}
+        echo '>No</option>';
+        echo '</select></li>';
+       
         echo '<li>Language: <input type="text" class="wide" name="lang'.$num.'" id="lang'.$num.'" value="'.$langs[$num].'"/></li>';
         echo '<li>Price Tier: <select class="wide" name="tier'.$num.'" id="tier'.$num.'" />';
         echo '<option value="Free"';
