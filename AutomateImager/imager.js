@@ -190,8 +190,8 @@ function sortObj(objToSort, iteration, leng){
         iteration = 0;
         leng = Object.keys(objToSort).length;
 		outputArr = [];
-        console.log(objToSort);
-        console.log("Has a length of "+leng);
+        //console.log(objToSort);
+        //console.log("Has a length of "+leng);
     }
 	
 	tempObj = objToSort;
@@ -204,7 +204,7 @@ function sortObj(objToSort, iteration, leng){
 		}
 	}
 	delete tempObj[hitWord];																		//Use Exponentially decreasing accuracy thresholds
-	console.log(hitWord + " - "+ minVal + " - "+ "0");
+	//console.log(hitWord + " - "+ minVal + " - "+ "0");
 	if((minVal < 3)||(iteration<3)){                                                                  //IMPROVE THE THERSHOLD FOR THE FIRST COMPARISON FUNCTION? 
 		outputArr.push(hitWord);
 		if(iteration < leng-1){//<objToSort.length
@@ -218,34 +218,43 @@ function findImage(goodtags, postid){
     console.log(goodtags);
     window['goodtagslength'+postid]=goodtags.length;
     window['foundarticles'+postid] = [];
-    setTimeout(function(){
+    setTimeout(function(){                                                                                                //COMMENT HERE AS WE DEVELOP IMAGER FURTHER RESTART HERE TOMORROW THURSDAY LEFT OFF
         for(searchterm in goodtags){
-            console.log(goodtags[searchterm]);
+            //console.log(goodtags[searchterm]);
             jQuery("#hiddenoutarea"+postid).append('<div id="'+goodtags[searchterm].replace(" ", "")+'"></div>');
         }
-    }, 3000);
-    console.log("postid: "+ postid+" length: "+goodtags.length)
+        jQuery("#hiddenoutarea"+postid).append('<div id="testdivv'+postid+'"></div>');
+    }, 3000);    //*/
+    //console.log("postid: "+ postid+" length: "+goodtags.length)
     setTimeout(function(){
+        jQuery.post("get4aibulk.php?posid="+postid, { 'tags': goodtags }, function(result){
+            jQuery("#testdivv"+postid).html(result);
+        });
         for(searchterm in goodtags){ 
-            console.log("Searchme");
+            //console.log("Searchme");
             jQuery("#"+goodtags[searchterm].replace(" ", "")).load("get4ai.php/?url="+ encodeURIComponent("https://agoraeconomics.com/tag/"+goodtags[searchterm].replace(" ", "-")+"/?automateimager=1&posid="+postid));
         }
     }, 9000);
 }
 
+function searchdonenew(foundids, postid){                                       //The new search done function
+    console.log("postid: "+postid);
+    console.log("foundids: ");
+    console.log(foundids);
+}
 function searchdone(foundids, postid){
     window['goodtagslength'+postid]--;
     if(foundids[0] == -1){
         return;
     }
-    console.log("searchdone"+postid+" running "+window['goodtagslength'+postid]);
-    console.log(foundids);
+    //console.log("searchdone"+postid+" running "+window['goodtagslength'+postid]);
+    //console.log(foundids);
     for(foundid in foundids){
         window['foundarticles'+postid].push(foundids[foundid]);
     }
     if(window['goodtagslength'+postid] == 0){
-        console.log("time to call pull image");
-        console.log(window['foundarticles'+postid]); 
+        //console.log("time to call pull image");
+        //console.log(window['foundarticles'+postid]); 
         tempGoodTags = window['foundarticles'+postid];                                        
         var alreadyhit = [];
         var workids = [];
@@ -263,7 +272,7 @@ function searchdone(foundids, postid){
             }
             idscores[ttagcount-1] = idscores[ttagcount-1] + 1;
         } 
-        console.log(idscores);
+        //console.log(idscores);
             
         var cutoff = cutoffs(0,idscores);                                                           //Frequency cutoff
         
@@ -286,8 +295,8 @@ function searchdone(foundids, postid){
                 }
             }
         }
-        console.log(tempGoodTags);
-        console.log(workids);
+        //console.log(tempGoodTags);
+        //console.log(workids);
         randomitem = workids[Math.floor(Math.random()*workids.length)];
         console.log("will pull image from "+randomitem);
         jQuery("#img"+postid).attr("value", randomitem);
@@ -305,7 +314,7 @@ function cutoffs(startpoint, scores){                                           
             max = point;
         }
     }
-    console.log("worksum: "+worksum+"  / sum: "+sum);
+    //console.log("worksum: "+worksum+"  / sum: "+sum);
     if((worksum > (sum / 10))&& (worksum > 3)){
         max = cutoffs(startpoint+1, scores);                                                                            //DELICIOUS RECURSION
     }
