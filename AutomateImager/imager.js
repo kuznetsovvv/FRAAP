@@ -237,10 +237,10 @@ function findImage(goodtags, postid){
     }, 9000);
 }
 
-function searchdonenew(foundids, postid){                                       //The new search done function
+function searchdonenew(foundpics, postid){                                       //The new search done function
     console.log("postid: "+postid);
-    console.log("foundids: ");
-    console.log(foundids);
+    console.log("foundpics: ");
+    console.log(foundpics);
 }
 function searchdone(foundids, postid){
     window['goodtagslength'+postid]--;
@@ -249,12 +249,12 @@ function searchdone(foundids, postid){
     }
     //console.log("searchdone"+postid+" running "+window['goodtagslength'+postid]);
     //console.log(foundids);
-    for(foundid in foundids){
+    for(foundid in foundids){                                                                                                       //after this loop, foundarticles$# contains all found PIDs
         window['foundarticles'+postid].push(foundids[foundid]);
     }
-    if(window['goodtagslength'+postid] == 0){
-        //console.log("time to call pull image");
-        //console.log(window['foundarticles'+postid]); 
+    if(window['goodtagslength'+postid] == 0){                                                                                       //Once all tags have been searched...
+        console.log("for postid: "+postid);
+        console.log(window['foundarticles'+postid].length); 
         tempGoodTags = window['foundarticles'+postid];                                        
         var alreadyhit = [];
         var workids = [];
