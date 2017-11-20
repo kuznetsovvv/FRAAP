@@ -253,3 +253,17 @@ li > img.more, li > img.less{
     padding-bottom: 5px;
     margin-bottom: 5px;
 }
+.imgrow{
+    width:100%;
+    height:112px;
+}
+.imgrow > img{
+    box-sizing: border-box;
+    height:100px;
+    width:auto;
+}
+.imgrow > img.selected{
+    height:100px;
+    width:auto;
+    border: 5px solid yellow;
+}

@@ -219,21 +219,21 @@ function findImage(goodtags, postid){
     window['goodtagslength'+postid]=goodtags.length;
     window['foundarticles'+postid] = [];
     setTimeout(function(){                                                                                                //COMMENT HERE AS WE DEVELOP IMAGER FURTHER RESTART HERE TOMORROW THURSDAY LEFT OFF
-        for(searchterm in goodtags){
+        /*for(searchterm in goodtags){
             //console.log(goodtags[searchterm]);
             jQuery("#hiddenoutarea"+postid).append('<div id="'+goodtags[searchterm].replace(" ", "")+'"></div>');
-        }
+        }//*/
         jQuery("#hiddenoutarea"+postid).append('<div id="testdivv'+postid+'"></div>');
-    }, 3000);    //*/
+    }, 3000);    
     //console.log("postid: "+ postid+" length: "+goodtags.length)
     setTimeout(function(){
         jQuery.post("get4aibulk.php?posid="+postid, { 'tags': goodtags }, function(result){
             jQuery("#testdivv"+postid).html(result);
         });
-        for(searchterm in goodtags){ 
+        /*for(searchterm in goodtags){ 
             //console.log("Searchme");
             jQuery("#"+goodtags[searchterm].replace(" ", "")).load("get4ai.php/?url="+ encodeURIComponent("https://agoraeconomics.com/tag/"+goodtags[searchterm].replace(" ", "-")+"/?automateimager=1&posid="+postid));
-        }
+        }//*/
     }, 9000);
 }
 
@@ -241,6 +241,17 @@ function searchdonenew(foundpics, postid){                                      
     console.log("postid: "+postid);
     console.log("foundpics: ");
     console.log(foundpics);
+    for(foundpic in foundpics){
+        var pic = '<img class="i'+foundpics[foundpic][1]+'" src="'+foundpics[foundpic][0]+'" onclick="javascript:setImg('+postid+','+foundpics[foundpic][1]+');">';
+        jQuery("#imgrow"+postid).append(pic);
+        jQuery("#imgrow"+postid).append('&nbsp;');
+        console.log(pic);
+    }
+}
+function setImg(targetimg, number){
+    jQuery("#imgrow"+targetimg+">img").removeClass("selected");
+    jQuery("#img"+targetimg).attr("value", number);
+    jQuery("#imgrow"+targetimg+">img.i"+number).addClass("selected");
 }
 function searchdone(foundids, postid){
     window['goodtagslength'+postid]--;
@@ -253,8 +264,8 @@ function searchdone(foundids, postid){
         window['foundarticles'+postid].push(foundids[foundid]);
     }
     if(window['goodtagslength'+postid] == 0){                                                                                       //Once all tags have been searched...
-        console.log("for postid: "+postid);
-        console.log(window['foundarticles'+postid].length); 
+        //console.log("for postid: "+postid);
+        //console.log(window['foundarticles'+postid].length); 
         tempGoodTags = window['foundarticles'+postid];                                        
         var alreadyhit = [];
         var workids = [];

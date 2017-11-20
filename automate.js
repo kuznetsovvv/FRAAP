@@ -357,6 +357,7 @@ function populate2(datum){
          generated = generated + '<li>Tags: <input type="text" id="inTags'+index+'" value="'+getTags(value[4])+'"/> &nbsp; Promo/article URL: <input type="text" id="inUrl'+index+'" value="'+value[5]+'"/> &nbsp; Language: <input type="text" id="inLang'+index+'" value="'+value[8]+'"/>'; //tags, url, language
          generated = generated + ' &nbsp; Pub Code:<input type="text" id="pubCode'+index+'" value="'+value[9]+'"/></li>'; // publication code
          generated = generated + '<li><strong>Excerpt</strong> for Alerts: <textarea form="modify" id="taexcerpt'+index+'" rows="5" required>'+shartcontent.trim()+'</textarea></li>';  // excerpt
+         generated = generated + '<li><strong>Featured Image</strong> for Alerts: <div class="imgrow" id="imgrow'+index+'" ></div></li>';                                               //image select area
          generated = generated + '<li>'+fullLabel+' <textarea form="modify" id="tacontent'+index+'" required>'+value[4]+'</textarea></li>'; //content
          if(paid == true){
                 generated = generated + '<li><strong>Partial</strong> article for Wordpress: <textarea form="modify" id="tashart'+index+'" required>'+value[4]+'</textarea></li>';  // particle
