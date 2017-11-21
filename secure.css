@@ -256,6 +256,8 @@ li > img.more, li > img.less{
 .imgrow{
     width:100%;
     height:112px;
+    overflow: hidden;
+    overflow: scroll;
 }
 .imgrow > img{
     box-sizing: border-box;

@@ -204,7 +204,7 @@ echo '<h2>Sites:</h2><form action="" id="holder" method="post"><ol>';
         echo '</li><li>Target xPath selector:  <input type="text" class="wide" name="sels'.$num.'" id="sels'.$num.'" value="'.htmlspecialchars($selects[$num]).'"/>';//.$selects[$num];
         echo '</li><li>Content xPath selector:  <input type="text" class="wide" name="contents'.$num.'" id="contents'.$num.'" value="'.htmlspecialchars($contents[$num]).'"/>';
         echo '</li><li>Content end xPath selector:  <input type="text" class="wide" name="stop'.$num.'" id="stop'.$num.'" value="'.htmlspecialchars($stops[$num]).'"/>';//.$selects[$num];
-        echo '</li><li>Exclude Content xPath selector (|| seperated):  <input type="text" class="wide" name="exclude'.$num.'" id="exclude'.$num.'" value="'.htmlspecialchars($excludes[$num]).'"/>';//.$selects[$num];
+        echo '</li><li>Exclude Content xPath selector ( | seperated):  <input type="text" class="wide" name="exclude'.$num.'" id="exclude'.$num.'" value="'.htmlspecialchars($excludes[$num]).'"/>';//.$selects[$num];
         echo '</li><li>Feed URL (Leave blank for no feed): <input type="text" class="wide" name="feed'.$num.'" id="feed'.$num.'" value="'.htmlspecialchars($feeds[$num]).'"/></li>';
         echo '<li>Language: <input type="text" class="wide" name="lang'.$num.'" id="lang'.$num.'" value="'.$langs[$num].'"/></li>';
         echo '</li><li>Feed URL (Leave blank for no feed): <input type="text" class="wide" name="savepath'.$num.'" id="savepath'.$num.'" value="'.htmlspecialchars($savepaths[$num]).'"/></li>';

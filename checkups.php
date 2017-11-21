@@ -278,16 +278,16 @@
             elseif (($div = $x->query($csel))) {                                              //save content area based on xpath $csel and $stsel
                 //$full = $domDoc->saveHTML();
                 $artcontent = "";
-                $artcontent = $artcontent.PHP_EOL.PHP_EOL.($domDoc->saveHTML($div->item(0)));
-                if (($divtwo = $x->query($stsel))) { 
-                    $startartcontent = $domDoc->saveHTML($div->item(0));
+                $artcontent = $artcontent.PHP_EOL.PHP_EOL.($domDoc->saveHTML($div->item(0)));   //saves content area
+                if (($divtwo = $x->query($stsel))) {                                            //if end selector exists
+                    $startartcontent = $domDoc->saveHTML($div->item(0));                        
                     $endartcontent = $domDoc->saveHTML($divtwo->item(0));
-                    $startartcontent = substr($startartcontent, 0 , 100);
-                    $endartcontent = substr($endartcontent, 0 , 100);
+                    $startartcontent = substr($startartcontent, 0 , 100);                       //start of article content - we chose 100 as an adequate length to avoid mishaps
+                    $endartcontent = substr($endartcontent, 0 , 100);                           //end of article content
                     //strlen($artcontent);
                     $substringstart = stripos( $artcontent, $startartcontent);
                     $substringend = stripos( $artcontent, $endartcontent);
-                    echo htmlspecialchars($endartcontent);
+                    echo htmlspecialchars($endartcontent);                                      //the debug junk being dumped on the main page
                     echo "<br>";
                     echo htmlspecialchars(substr($artcontent, $substringend, 100));
                     echo "<hr>";
@@ -297,8 +297,8 @@
                     $xp=$csel."[count(.| ".$stsel.")=count(".$stsel.")]";
                     $div = $x->query($xp);//*/
                     //$artcontent = PHP_EOL.PHP_EOL.($domDoc->saveHTML($div->item(0)));
-                    
                     $artcontent = substr($artcontent, $substringstart, $substringlength);                           //EXCLUDE CONTENT WILL GO SOMEWHERE AROUND HERE
+                    $artcontent = removeAds($artcontent, $exclude);
                 }
                 $artcontent=trim($artcontent);//trim(strip_tags($artcontent));
                 $acshort = $artcontent;
@@ -388,11 +388,32 @@
             //echo "<hr />";
         }
         function removeElementsByTagName($tagName, $document) {
-          $nodeList = $document->getElementsByTagName($tagName);
-          for ($nodeIdx = $nodeList->length; --$nodeIdx >= 0; ) {
-            $node = $nodeList->item($nodeIdx);
-            $node->parentNode->removeChild($node);
-          }
+            $nodeList = $document->getElementsByTagName($tagName);
+            for ($nodeIdx = $nodeList->length; --$nodeIdx >= 0; ) {
+                $node = $nodeList->item($nodeIdx);
+                $node->parentNode->removeChild($node);
+            }
+        }
+        function removeAds($aContent, $adList){
+            $allads = explode("|",$adList);
+            if(count($allads)<1){
+                return $aContent;
+            }
+            $thisad = array_pop($allads);
+            $adList = implode("|",$allads);
+            $dDoc = new DOMDocument;
+            $dDoc->loadHTML(mb_convert_encoding($aContent, 'HTML-ENTITIES', 'UTF-8'));
+            $path = new DOMXPath($dDoc);
+            if ($div = $path->query($thisad)) { 
+                foreach($div as $node){
+                    $node->parentNode->removeChild($node);
+                }
+            }
+            $aContent = $dDoc->saveHTML();
+            if(count($allads)>0){
+                $aContent = removeAds($aContent, $adList);
+            }
+            return $aContent;
         }
         
 ?>
