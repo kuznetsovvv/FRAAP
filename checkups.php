@@ -415,7 +415,31 @@
             }
             return $aContent;
         }
+        function DOMinnerHTML(DOMNode $element){ 
+            $innerHTML = ""; 
+            $children  = $element->childNodes;
+
+            foreach ($children as $child) 
+            { 
+                $innerHTML .= $element->ownerDocument->saveHTML($child);
+            }
+
+            return $innerHTML; 
+        } 
+        /* THIS IS DEMO CODE FOR THE ABOVE FUNCTION 
+        $dom= new DOMDocument(); 
+        $dom->preserveWhiteSpace = false;
+        $dom->formatOutput       = true;
+        $dom->load($html_string); 
         
+        $domTables = $dom->getElementsByTagName("table"); 
+
+        // Iterate over DOMNodeList (Implements Traversable)
+        foreach ($domTables as $table) 
+        { 
+            echo DOMinnerHTML($table); 
+        } 
+        */
 ?>
     <script type="text/javascript"> 
      //<!--   
