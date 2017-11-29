@@ -415,8 +415,9 @@
             }
             return $aContent;
         }
-        function DOMinnerHTML(DOMNode $element){ 
-            $innerHTML = ""; 
+    
+        (DOMNode $element){                            //Rethink how to shape this to not break tree structure. Definitely need first-level child nodes to come with their descendants
+            $innerHTML = "";                                                //Probably don't want to iterate teh descendants individually
             $children  = $element->childNodes;
 
             foreach ($children as $child) 
