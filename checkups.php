@@ -278,7 +278,7 @@
             elseif (($div = $x->query($csel))) {                                              //save content area based on xpath $csel and $stsel
                 //$full = $domDoc->saveHTML();
                 $artcontent = "";
-                $artcontent = $artcontent.PHP_EOL.PHP_EOL.DOMinnerHTML($div->item(0));//($domDoc->saveHTML($div->item(0)));   //saves content area
+                $artcontent = $artcontent.PHP_EOL.PHP_EOL.($domDoc->saveHTML($div->item(0)));   //DOMinnerHTML($div->item(0));//($domDoc->saveHTML($div->item(0)));   //saves content area
                 if (($divtwo = $x->query($stsel))) {                                            //if end selector exists
                     $startartcontent = $domDoc->saveHTML($div->item(0));                        
                     $endartcontent = $domDoc->saveHTML($divtwo->item(0));
