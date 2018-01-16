@@ -130,7 +130,8 @@
         <ul>
             <?php
     for($inc = 0; $inc < $fields['bulkpubnumber']; $inc++) {
-        $targName = date('ymd', time()-14400)."-".$fields['user-submitted-pubcode'.$inc];
+        $targName = date('ymd', time()-14400).".".$fields['user-submitted-pubcode'.$inc];
+        $targName = $targName.".".str_replace(", ",".",$fields['user-submitted-tags'.$inc]);
         $outstring = "<h1>".$fields['user-submitted-title'.$inc]."</h1><br /><h2>Retrieved ".date('l jS \of F Y h:i:s A')."</h2><br />".html_entity_decode($fields['user-submitted-content'.$inc]); 
         $outstring = str_ireplace("<center",'<span style="text-align:center;" ',$outstring);
         $outstring = str_ireplace("</center>",'</span>',$outstring);
